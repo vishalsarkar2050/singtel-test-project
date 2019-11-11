@@ -1,11 +1,5 @@
 package com.singtel;
 
-public class Bird extends Animal {
-    void fly() {
-        System.out.println("I am flying");
-    }
+public class Bird extends Animal implements Walkable, Singable, Flyable {
 
-    void sing(){
-        System.out.println("I am singing");
-    }
 }
